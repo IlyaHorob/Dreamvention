@@ -1,0 +1,52 @@
+2017-05-14 15:57:08 - PHP Notice:  Error: Could not load model /var/www/dev4/public_html/admin/model/sale/customer_group.php! in /var/www/dev4/public_html/system/storage/modification/system/engine/loader.php on line 63
+2017-05-14 17:41:53 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /var/www/dev4/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /var/www/dev4/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /var/www/dev4/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /var/www/dev4/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /var/www/dev4/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /var/www/dev4/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /var/www/dev4/public_html/system/storage/modification/system/engine/action.php(46): call_user_func(Array, Array)
+#8 /var/www/dev4/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /var/www/dev4/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /var/www/dev4/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-05-14 17:42:00 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /var/www/dev4/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /var/www/dev4/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /var/www/dev4/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /var/www/dev4/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /var/www/dev4/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /var/www/dev4/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /var/www/dev4/public_html/system/storage/modification/system/engine/action.php(46): call_user_func(Array, Array)
+#8 /var/www/dev4/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /var/www/dev4/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /var/www/dev4/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-05-14 18:53:19 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /var/www/dev4/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /var/www/dev4/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /var/www/dev4/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /var/www/dev4/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /var/www/dev4/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /var/www/dev4/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /var/www/dev4/public_html/system/storage/modification/system/engine/action.php(46): call_user_func(Array, Array)
+#8 /var/www/dev4/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /var/www/dev4/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /var/www/dev4/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
